@@ -1,0 +1,41 @@
+#table {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  border-spacing: 0;
+  float: left;
+}
+
+td{
+  transition: background-color 900ms ease-in-out;
+}
+.td{
+  cursor: pointer;
+  transition: background-color 300ms ease-in-out;
+}
+
+.black {
+  background-color: #000;
+  color: #fff;
+
+}
+.white {
+  background-color: #fff;
+  color: #000;
+}
+
+#div {
+  border: 1px solid #000;
+  width: 350px;
+  height: 200px;
+  float: left;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  padding: 80px 0 0 0;
+}
+
+.none {
+  display: none;
+}
